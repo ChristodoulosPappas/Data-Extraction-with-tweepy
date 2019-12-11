@@ -18,10 +18,10 @@ class myListener(tweepy.StreamListener):
 
 
 
-tweeter_keys = {'consumer_key': 'h01XHwKIia1WPjKk8xajp5Jb1',
-'consumer_secret':'onPVVQWpj2NDK4GnCijbFQapZGQuunkKYADn4Dbcb4JnWTo1u4'
-,'token':'1189185667206533122-kpTopAJwCqcFApQN1BkuuGdjmiRZ7t',
-'token_secret':'Uz1HgLanTon0pFuJlhGVLhQRN0LSZl2Rnt2p8s9dzxwQ9'};
+tweeter_keys = {'consumer_key': 'xxxxxx',
+'consumer_secret':'xxxxx'
+,'token':'xxxxx',
+'token_secret':'xxxx'};
 
 auth = tweepy.OAuthHandler(tweeter_keys['consumer_key'],tweeter_keys['consumer_secret']);
 auth.set_access_token(tweeter_keys['token'],tweeter_keys['token_secret'])
